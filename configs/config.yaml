@@ -1,0 +1,15 @@
+model:
+  name: resnet50
+  num_classes: 120
+  model_path: outputs/models/dog_breed_model.pth
+
+data:
+  image_size: 224
+
+training:
+  batch_size: 32
+  learning_rate: 0.0001
+  epochs: 3
+
+app:
+  title: "Dog Breed Classifier"
